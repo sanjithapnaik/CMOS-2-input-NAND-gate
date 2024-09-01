@@ -1,0 +1,46 @@
+Objective: Design a CMOS two-input NAND gate using Cadence and analyze its performance by calculating the fall time and rise time.
+
+Key Components
+Design Tool:
+
+Cadence: Used for designing and simulating the CMOS NAND gate.
+Circuit Design:
+
+NAND Gate: A fundamental digital logic gate that outputs true (logic high) only when both inputs are false (logic low). It is designed using CMOS technology, which includes both PMOS and NMOS transistors.
+
+CMOS Technology:
+
+NMOS Transistors: Used for pulling the output to ground (logic low).
+PMOS Transistors: Used for pulling the output to VDD (logic high).
+Circuit Schematic:
+
+Inputs: Two input terminals.
+Transistor Configuration: PMOS and NMOS transistors arranged to implement the NAND function.
+Performance Analysis:
+
+Fall Time: The time required for the output to transition from a high to a low state.
+
+Rise Time: The time required for the output to transition from a low to a high state.
+
+Measurement:
+
+Simulation Setup: Set up transient analysis in Cadence to observe the time-dependent behavior of the circuit.
+Waveform Analysis: Use Cadence’s waveform viewer to measure the fall and rise times from the output signal transitions.
+Procedure
+Circuit Design:
+
+Create the CMOS NAND gate circuit in Cadence by placing and wiring PMOS and NMOS transistors.
+Define the gate, drain, and source terminals of the transistors according to the NAND logic configuration.
+Simulation:
+
+Perform a transient analysis to simulate the response of the NAND gate to input signals.
+Observe the output waveform and measure the time intervals for the output to change states.
+Performance Measurement:
+
+Use the simulation results to calculate the fall time and rise time.
+Analyze the timing characteristics to ensure the circuit meets the required performance specifications.
+Results
+Fall Time: Measured duration for the output to fall from a high voltage level to a low voltage level.
+Rise Time: Measured duration for the output to rise from a low voltage level to a high voltage level.
+Conclusion
+The project successfully demonstrates the design and performance evaluation of a CMOS two-input NAND gate using Cadence. Calculating the fall and rise times provides insight into the gate’s switching characteristics, which is crucial for designing high-speed digital circuits.
